@@ -1,18 +1,38 @@
-# Tt-a1i Skillroster
+# SkillRoster Homebrew Tap
 
-## How do I install these formulae?
+Official Homebrew tap for [SkillRoster](https://github.com/tt-a1i/skillroster),
+local Skill governance for AI agents.
 
-`brew install tt-a1i/skillroster/<formula>`
+## Install
 
-Or `brew tap tt-a1i/skillroster` and then `brew install <formula>`.
+```sh
+brew install tt-a1i/skillroster/skillroster
+```
 
-Or, in a `brew bundle` `Brewfile`:
+Homebrew adds the tap automatically. To add it explicitly:
+
+```sh
+brew tap tt-a1i/skillroster
+brew install skillroster
+```
+
+## Upgrade and verify
+
+```sh
+brew update
+brew upgrade skillroster
+skillroster --version
+```
+
+For a `Brewfile`:
 
 ```ruby
 tap "tt-a1i/skillroster"
-brew "<formula>"
+brew "skillroster"
 ```
 
-## Documentation
+## Links
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+- [SkillRoster documentation](https://github.com/tt-a1i/skillroster#readme)
+- [Releases](https://github.com/tt-a1i/skillroster/releases)
+- [Homebrew documentation](https://docs.brew.sh)
