@@ -1,16 +1,10 @@
 class Skillroster < Formula
   desc "Local skill governance for AI agents"
   homepage "https://github.com/tt-a1i/skillroster"
-  url "https://github.com/tt-a1i/skillroster/archive/refs/tags/v1.8.28.tar.gz"
-  sha256 "23dddf240c729eb73f8117ed1b27c17f5f2fbdb67e975e2903410b6cd618879c"
+  url "https://github.com/tt-a1i/skillroster/archive/refs/tags/v1.8.29.tar.gz"
+  sha256 "f0b028db617e195ad2a26eecd03df1b1104ab05c6b60a421c588d03b2f0e57eb"
   license "Apache-2.0"
   head "https://github.com/tt-a1i/skillroster.git", branch: "main"
-
-  bottle do
-    root_url "https://github.com/tt-a1i/homebrew-skillroster/releases/download/skillroster-1.8.28"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "6386ef3a85f6e7355a22cf3f52fee297eb0970dc0313b93a058ec971a247b12a"
-    sha256 cellar: :any,                 x86_64_linux: "5f47f165c2a81a19be3e6f273961c1f6a2730eb73ecc957efffb3c0e0b73674d"
-  end
 
   depends_on "rust" => :build
 
