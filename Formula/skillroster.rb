@@ -6,6 +6,12 @@ class Skillroster < Formula
   license "Apache-2.0"
   head "https://github.com/tt-a1i/skillroster.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/tt-a1i/homebrew-skillroster/releases/download/skillroster-1.8.33"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "6f8e5789f5ec72cb0966c61e62927c7c9f4cf4c364e67cb7f4ff4c3e53371353"
+    sha256 cellar: :any,                 x86_64_linux: "b1272a53f33cfa3fc4b901dd3359c80d1812d957d7f667b3b630a187625a6a20"
+  end
+
   depends_on "rust" => :build
 
   def install
