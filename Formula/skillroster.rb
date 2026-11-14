@@ -1,8 +1,8 @@
 class Skillroster < Formula
   desc "Local skill governance for AI agents"
   homepage "https://github.com/tt-a1i/skillroster"
-  url "https://github.com/tt-a1i/skillroster/archive/refs/tags/v1.9.0.tar.gz"
-  sha256 "4deac30a8cbf0fafc9cd2a502bf472c72a60e818560c0a9990762f1a071bd360"
+  url "https://github.com/tt-a1i/skillroster/archive/refs/tags/v1.9.1.tar.gz"
+  sha256 "c3d4c6631cfd7c3d4282acbce45aec64888401eb3855809d6e4c31289c19e32d"
   license "Apache-2.0"
   head "https://github.com/tt-a1i/skillroster.git", branch: "main"
 
